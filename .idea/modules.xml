@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java_development_process.iml" filepath="$PROJECT_DIR$/.idea/Java_development_process.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ders2/ders2.iml" filepath="$PROJECT_DIR$/ders2/ders2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hesapMakinasi/hesapMakinasi.iml" filepath="$PROJECT_DIR$/hesapMakinasi/hesapMakinasi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/patika/patika.iml" filepath="$PROJECT_DIR$/patika/patika.iml" />
+    </modules>
+  </component>
+</project>
