@@ -3,10 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Java_development_process.iml" filepath="$PROJECT_DIR$/.idea/Java_development_process.iml" />
-      <module fileurl="file://$PROJECT_DIR$/patika/donguler/donguler.iml" filepath="$PROJECT_DIR$/patika/donguler/donguler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/patika/src/java/donguler/donguler.iml" filepath="$PROJECT_DIR$/patika/src/java/donguler/donguler.iml" />
       <module fileurl="file://$PROJECT_DIR$/hesapMakinasi/hesapMakinasi.iml" filepath="$PROJECT_DIR$/hesapMakinasi/hesapMakinasi.iml" />
       <module fileurl="file://$PROJECT_DIR$/patika/patika.iml" filepath="$PROJECT_DIR$/patika/patika.iml" />
-      <module fileurl="file://$PROJECT_DIR$/patika/ifElseler/untitled.iml" filepath="$PROJECT_DIR$/patika/ifElseler/untitled.iml" />
+      <module fileurl="file://$PROJECT_DIR$/patika/src/java/ifElseler/untitled.iml" filepath="$PROJECT_DIR$/patika/src/java/ifElseler/untitled.iml" />
     </modules>
   </component>
 </project>
