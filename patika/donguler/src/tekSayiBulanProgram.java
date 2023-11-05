@@ -1,24 +1,27 @@
 import java.util.Scanner;
+
 public class tekSayiBulanProgram {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        //Java döngüler ile negatif bir değer girilene kadar kullanıcıdan girişleri kabul
-        // eden ve girilen değerlerden tek sayıları toplayıp ekrana basan programı yazıyoruz.
-        int sonuc = 0;
+        int toplam = 0;
 
         while (true) {
-            System.out.println("lütfen bir sayı giriniz");
+            System.out.println("Lütfen bir sayı giriniz (negatif sayı girmek için q tuşuna basın):");
             int sayi = scanner.nextInt();
+
             if (sayi < 0) {
-                System.out.println("negatif bir dayi gridiniz");
+                System.out.println("Negatif sayı girdiniz.");
                 break;
+            } else if (sayi > 0) {
+                for (int i = 1; i <= sayi; i++) {
+                    if (i % 2 == 1) {
+                        toplam += i;
+                    }
+                }
+            } else {
+                System.out.println("Bu koşul sağlanamaz");
             }
-            if (sayi % 2 == 1) {
-                sonuc +=sayi;
-
-
-            }
-            System.out.println("girilen tek sayiların toplamı="+sonuc);
-
+            System.out.println("Tek sayıların toplamı = " + toplam);
         }
-    }}
+    }
+}
