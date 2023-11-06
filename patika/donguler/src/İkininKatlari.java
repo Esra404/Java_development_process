@@ -6,18 +6,20 @@ public class İkininKatlari {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Lütfen bir sayı giriniz");
+        int sonuc=1;
         while (true) {
             int sayi = scanner.nextInt();
-int sonuc=1;
             if (sayi > 0) {
                 for (int i = 1; i <= sayi; i++) {
-                     sonuc = (2 ** i);
+                    sonuc *=2;
+                    System.out.println("2^" + i + " = " + sonuc);
+
 
                 }
             } else {
                 System.out.println("geçersiz parametre");
             }
-            System.out.println("sonuç=" + sonuc);
+
         }
     }
 }
