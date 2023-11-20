@@ -70,13 +70,13 @@ Bir sayının basamak sayılarının toplamını hesaplayan program yazınız.
 
     Örnek : 1643 = 1 + 6 + 4 + 3 = 14 */
         int sayi = 1234;
-        int numberCounter = 0;
+        int xnumberCounter = 0;
         int toplam=0;
         while (sayi != 0) {
             sayi /= 10;
             System.out.println(sayi);
             toplam +=sayi;
-            numberCounter++;
+            xnumberCounter++;
         }
         System.out.println("sonuc="+toplam);
 
