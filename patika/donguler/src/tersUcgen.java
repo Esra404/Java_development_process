@@ -8,9 +8,9 @@ public class tersUcgen {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
         System.out.println("lütfen bir sayı giriniz");
-        int sayi=scanner.nextInt();
+        int temp=scanner.nextInt();
 
-        int temp=sayi;
+
         int basamak=0;
         while (temp!=0){
 
