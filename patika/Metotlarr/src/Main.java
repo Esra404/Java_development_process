@@ -1,17 +1,23 @@
 public class Main {
-
-
-    static  int power(int base,int exp){
-        int result=1;
-        for(int i=1;i<=exp;i++){
-            result *=base;
-        }
-        return  result;
-    }
     public static void main(String[] args) {
-
-        int case1=power(2,3);
-        System.out.println(case1);
+        Car audi=new Car();
+        audi.model="audi";
+        audi.speed=10;
+        audi.increaseSpeed(20);
+        audi.decreaseSpeed(10);
+        audi.printSpeed();
+        Car bmw=new Car();
+        bmw.model="bmw";
+        bmw.speed=20;
+        bmw.increaseSpeed(20);
+        bmw.increaseSpeed(25);
+        bmw.increaseSpeed(120);
+        bmw.printSpeed();
+        System.out.println("fd");
+        Car mercedes=new Car();
+        mercedes.model="mercedes";
+        mercedes.speed=30;
+        mercedes.printSpeed();
 
     }
 }
