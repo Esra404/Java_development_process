@@ -21,6 +21,7 @@ public class Car {
     void decreaseSpeed(int decrease){
         if(speed>0){
             speed -=decrease;
+            System.out.println("");
         }
     }
     void printSpeed(){
