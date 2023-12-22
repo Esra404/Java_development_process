@@ -10,7 +10,7 @@ public class Teacher {
     }
     void print(){
         System.out.println("adı:"+this.name);
-        System.out.println("telefonu"+this.npno);
+        System.out.println("telefonu:"+this.npno);
         System.out.println("bölümü:"+this.branch);
     }
 }
