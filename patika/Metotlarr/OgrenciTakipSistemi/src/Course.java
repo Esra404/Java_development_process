@@ -1,5 +1,3 @@
-import javax.swing.*;
-import java.nio.channels.spi.SelectorProvider;
 
 public class Course {
     Teacher teacher;
@@ -7,11 +5,17 @@ public class Course {
     String code;
     String prefix;
     int note;
-    Course(String name,String code,String prefix,Teacher teacher){
+    int sozlu;
+
+
+
+    Course(String name,String code,String prefix){
         this.name=name;
         this.code=code;
         this.prefix=prefix;
-        this.teacher=teacher;
+        this.sozlu=sozlu;
+
+        int sozlu=0;
         int note=0;
     }
     void addTeacher(Teacher teacher){
@@ -21,18 +25,15 @@ public class Course {
         }else{
             System.out.println("ders kodu ve içerikler eşleşmiyor");
         }
-
-
     }
     // teacher sınıfındaki tüm özellikler teacher nesnesine taşınır!!
     void printTeacher(){
 
         this.teacher.print();
     }
-
-
-
-
-
-
+ /*   void sozluNotu(Student avarage,int nott,double ort){
+        nott=0;
+              if(code=="101"){
+    }
+*/
 }

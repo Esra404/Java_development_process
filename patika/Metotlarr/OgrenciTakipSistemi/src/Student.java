@@ -21,7 +21,7 @@ public class Student {
 
     }
 
-    void addBulkExamNote(int note1, int note2, int note3) {
+    void addBulkExamNote(int note1, int note2, int note3,int sozlu) {
         if (note1 >= 0 && note1 <= 100) {
             this.c1.note = note1;
         }
