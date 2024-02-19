@@ -1,5 +1,6 @@
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
+// then press Enter
+/*
 public class Main {
     public static void main(String[] args) {
         // Ev ev = new Ev();
@@ -46,4 +47,4 @@ public class Main {
         System.out.println(sayi1 + " " +sayi2 +" rakamdır");
     }
     }
-}
+}*/
