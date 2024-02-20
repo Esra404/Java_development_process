@@ -18,7 +18,7 @@ public class enyakinSayi {
         }
         System.out.println("girilen sayıdan küçük en yakın sayı :"+kEnYakin);
         System.out.println("girilen sayidan yakın en buyuk sayı"+bEnYakin);
-
+//Dizideki Elemanların Max ve Min Değerlerini Bulan Program
 /*
 *
 *public class EnYakinSayi {
