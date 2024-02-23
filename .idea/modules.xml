@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/patika/AlgoritmaQuiz/AlgoritmaQuiz.iml" filepath="$PROJECT_DIR$/patika/AlgoritmaQuiz/AlgoritmaQuiz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/patika/BoksMaci/BoksMaci.iml" filepath="$PROJECT_DIR$/patika/BoksMaci/BoksMaci.iml" />
       <module fileurl="file://$PROJECT_DIR$/patika/Metotlarr/BoksorOyun/BoksorOyun.iml" filepath="$PROJECT_DIR$/patika/Metotlarr/BoksorOyun/BoksorOyun.iml" />
       <module fileurl="file://$PROJECT_DIR$/OOP/DERS1/DERS1.iml" filepath="$PROJECT_DIR$/OOP/DERS1/DERS1.iml" />
       <module fileurl="file://$PROJECT_DIR$/OOP/DERS2/DERS2.iml" filepath="$PROJECT_DIR$/OOP/DERS2/DERS2.iml" />

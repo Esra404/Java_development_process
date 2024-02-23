@@ -1,7 +1,7 @@
  class Car {
     String model;
     String type;
-    String color;
+   static String color;
     int speed;
     int speedLimit=180;
 

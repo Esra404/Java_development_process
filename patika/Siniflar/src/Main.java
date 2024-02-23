@@ -8,7 +8,7 @@ public class Main {
         audi.decreaseSpeed(5);
         audi.printSpeed();*/
         audi.printInfo();
-
+Car.color="siyah";
         Car bmw=new Car("bmw");
 bmw.printiki();
         /*
