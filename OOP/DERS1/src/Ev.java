@@ -1,0 +1,39 @@
+public class Ev {
+    private int odaSayisi;
+    private int kapiNo;
+    private String adres;
+
+    public int getKapiNo() {
+        return kapiNo;
+
+
+
+}
+    //constructor alan
+    public Ev(int kapiNo,int odaSayisi,String adres){
+        this.kapiNo=kapiNo;
+        this.odaSayisi=odaSayisi;
+        this.adres=adres;
+    }
+    //constructor overloading
+    public Ev(){
+
+    }
+    public void setKapiNo(int kapiNo){
+        this.kapiNo=kapiNo;
+    }
+    //public String getAdres(){
+      //  return adres ;
+    //}
+    public void setAdres(String adres){
+        this.adres=adres;
+    }
+    //encapsulation
+    //okuma işlemi oda sayısı
+    //public void setOdaSayisi(int odaSayisi) {
+      //  this.odaSayisi = odaSayisi;
+    //}
+    public void getOdaSayisi(int odaSayisi) {
+        this.odaSayisi = odaSayisi;
+    }}
+
