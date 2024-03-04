@@ -21,9 +21,11 @@ public class Player {
         this.damage=damage;
     }
     public int getHealtly(){
+
         return healtly;
     }
     public void setHealtly(int healtly){
+
         this.healtly=healtly;
     }
     public int getMoney(){
@@ -33,13 +35,16 @@ public class Player {
         this.money=money;
     }
     public  String getName(){
+
         return name;
     }
     public void setName(String name){
+
         this.name=name;
     }
 
     public void selectChar(){
+
         System.out.println(this.damage+"lütfen bir karakter seç");
     }
 }
