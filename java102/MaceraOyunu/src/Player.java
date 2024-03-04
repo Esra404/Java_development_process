@@ -4,6 +4,8 @@ public class Player {
     private int money;
     private String name;
 
+    public Inventory i̇nventory;
+
     public Player (int damage,int healtly,int money,String name){
         this.damage=damage;
         this.healtly=healtly;
