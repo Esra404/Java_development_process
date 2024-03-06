@@ -8,14 +8,14 @@ private String  armorName;
 private int  weapenDamage;
 private int armorDefence;
 
-public  Inventory(boolean water,boolean food,boolean fireword,String weaponName,String armorName,int weapenDamage,int armorDefence){
+public  Inventory(boolean water,boolean food,boolean fireword,String weaponName,String armorName,int weapenDamage){
     this.water=water;
     this.food=food;
     this.fireword=fireword;
     this.weaponName=weaponName;
     this.armorName=armorName;
     this.weapenDamage=weapenDamage;
-    this.armorDefence=armorDefenece;
+
 
 }
 public boolean getWater(){
